@@ -63,6 +63,6 @@ jobs:
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com/BKH033/github-actions-for-packages/tic-tac-toe:sha-eacb8e3
+        registry: docker.pkg.github.com
         repository: bkh033/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
